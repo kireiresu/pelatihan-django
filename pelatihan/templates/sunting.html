@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <form method='POST'>
+    <table>
+    {{ form }}
+    {% csrf_token %}
+    <tr><td colspan="2"><input type="submit" value="Buat"/></td></tr>
+    </table>
+    </form>
+  </body>
+</html>
